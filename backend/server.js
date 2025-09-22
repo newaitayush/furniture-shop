@@ -28,7 +28,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
   process.env.FRONTEND_URL,
-  'https://your-app.vercel.app'
+  'https://furniture-shop-8f8v.vercel.app/'
 ].filter(Boolean);
 
 app.use(cors({
