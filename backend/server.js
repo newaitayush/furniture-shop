@@ -25,8 +25,6 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // CORS
 const allowedOrigins = [
-  'http://localhost:3000',
-  'http://localhost:5173',
   process.env.FRONTEND_URL,
   'https://furniture-shop-8f8v.vercel.app/'
 ].filter(Boolean);
